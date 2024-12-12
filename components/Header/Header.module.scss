@@ -1,0 +1,27 @@
+@import "@/scss/func";
+.Header {
+    background-color: red;
+}
+
+.Header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 8vh;
+
+    ul {
+        display: flex;
+
+        a {
+            font-size: 2.3vh;
+            margin-right: 4vh;
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+.logo {
+    font-size: 4.5vh;
+}
