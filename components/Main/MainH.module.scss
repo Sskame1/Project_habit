@@ -1,4 +1,7 @@
+@import "@/scss/variable";
+
 .MainH {
-    background-color: gray;
+    background-color: $primary-color;
     height: 100vh;
+    font-size: $primary-size-text;
 }
