@@ -7,14 +7,14 @@ const urlInterArticles = "https://i.pinimg.com/736x/e5/1d/0a/e51d0a496551425d41d
 export default function Footer() {
   return (
     <div className={style.Footer}>
-        <div className={style.Footer__logo}>Momentum</div>
+        <div className={style.Footer__logo}><Link href='/'>Momentum</Link></div>
         <div className={style.Footer__content}>
             <div className={style.interestingArticles}>
                 <Link href={urlInterArticles}>Очень важная статья</Link>
             </div>
             <div className={style.navPanel}>
-                <Link href="#container_Down">Об проекте</Link>
-                <Link href="#container_Down">Пройти тест</Link>
+                <Link href="/About">Об проекте</Link>
+                <Link href="/Testing">Пройти тест</Link>
             </div>
         </div>
     </div>
