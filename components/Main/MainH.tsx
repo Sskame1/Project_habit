@@ -8,7 +8,7 @@ import DescForDown from '../DescForDown/DescForDown'
 export default function MainH() {
   return (
     <div className={style.MainH}>
-        <Header />
+        {/* <Header /> */}
           <div className={style.MainH__container_main}>
             <div className={style.container_Down}>
                 <DescForDown />

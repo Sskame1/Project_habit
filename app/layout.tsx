@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "@/scss/globals.scss";
 import "@/scss/reset.scss"
+import Header from "@/components/Header/Header";
+import Footer from "@/components/Footer/Footer";
 
 export const metadata: Metadata = {
   title: "Project_habit",
@@ -15,7 +17,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <Header/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
