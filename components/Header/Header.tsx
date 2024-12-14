@@ -6,10 +6,10 @@ export default function Header() {
   return (
     <div className={style.Header}>
         <div className={style.Header__container}>
-            <Link href='/' className={style.logo}>Logo</Link>
+            <Link href='/' className={style.logo}>Momentum</Link>
             <ul>
                 <Link href='/About' className="NavItem">Об проекте</Link>
-                <Link href='#' className="NavItem">Тест</Link>
+                <Link href='/Testing' className="NavItem">Тест</Link>
             </ul>
         </div>
     </div>
