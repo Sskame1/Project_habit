@@ -1,7 +1,7 @@
 @import "@/scss/variable";
 
 .MainH {
-    background-color: $primary-color;
+    // background-color: $primary-color;
     height: 100vh;
     font-size: $primary-size-text;
 }
@@ -15,6 +15,7 @@
 .MainH__container_main {
     display: flex;
     justify-content: space-around;
+    padding-top: 10vh;
 }
 
 .Image_main {

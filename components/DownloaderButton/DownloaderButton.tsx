@@ -3,6 +3,6 @@ import style from './DownloaderButton.module.scss'
 
 export default function DownloaderButton() {
   return (
-    <div>DownloaderButton</div>
+    <button className={style.buttonDownload}>Скачать</button>
   )
 }

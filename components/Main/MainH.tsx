@@ -9,7 +9,7 @@ export default function MainH() {
   return (
     <div className={style.MainH}>
         <Header />
-        <div className={style.MainH__container_main}>
+          <div className={style.MainH__container_main}>
             <div className={style.container_Down}>
                 <DescForDown />
                 <DownloaderButton />
