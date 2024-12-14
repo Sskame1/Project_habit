@@ -1,3 +1,0 @@
-@function pxtem($pixel, $base-font-size: 16px) {
-    @return $pixel / $base-font-size * 1em;
-}
